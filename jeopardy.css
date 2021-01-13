@@ -1,0 +1,74 @@
+body {
+    background-color: #060ce9;
+}
+
+
+
+
+.board {
+    display: flex;
+    justify-content: space-around;
+    background-color: #115ff4;
+
+ }
+
+
+ h1 {
+    color: white;
+    margin-left: 600px;
+}
+
+.ulle li {
+    width: 190px;
+    height: 100px;
+    padding: 20px 10px 20px 10px;
+    list-style-type: none;
+    color: white;
+    margin-left: -40px;
+    border: solid 2px white;
+   
+}
+
+
+.category {
+    padding: 40px 10px 0px 30px;
+    /* margin-left: 30px; */
+    border: solid 10px black;
+    width: 160px;
+    height: 100px;
+
+}
+
+.ulle {
+width: 175px;
+border: solid 2px white;
+}
+
+
+
+.box {
+    position: absolute;
+    border: solid 2px white;
+    background-color: blue;
+    color: white;
+    margin-left: -40px;
+    margin-top: -145px;
+    width: 210px;
+    height: 140px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+
+.clue {
+    position: absolute;
+    background-color: navy;
+}
+
+#btn-refresh {
+    display: block;
+    margin: -10px 0px 30px 625px;
+    background-color: black;
+    color: white;
+}
